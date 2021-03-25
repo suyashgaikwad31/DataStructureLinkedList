@@ -1,6 +1,6 @@
-MyLinkedList/MyLinkedList.java
- MyLinkedList.MyLinkedList
-MyNode/MyNode.java
- MyNode.MyNode
 MyNode/INode.java
  MyNode.INode
+MyNode/MyNode.java
+ MyNode.MyNode
+MyLinkedList/MyLinkedList.java
+ MyLinkedList.MyLinkedList

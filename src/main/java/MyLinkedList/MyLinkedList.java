@@ -1,7 +1,6 @@
 package MyLinkedList;
 
 import MyNode.INode;
-import MyNode.MyNode;
 
 public class MyLinkedList {
     public INode tail;
@@ -23,6 +22,20 @@ public class MyLinkedList {
             this.head = myNode;
             this.head.setNext(tempNode);
         }
+    }
+
+    public void append(INode myNode) {
+        if (this.head == null) {
+            this.head = myNode;
+        }
+        if (this.tail == null) {
+            this.tail = myNode;
+        } else {
+            this.tail.setNext(myNode);
+            this.tail = myNode;
+        }
+
+
     }
 
     public void printMyNodes() {
