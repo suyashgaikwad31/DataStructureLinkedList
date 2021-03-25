@@ -1,19 +1,29 @@
 package MyNode;
 
-public class MyNode<k> {
+public class MyNode<k> implements INode<k> {
     private  k key;
-    private  MyNode next;
+    private  INode next;
 
     public MyNode(k key) {
         this.key = key;
         this.next = null;
     }
 
-    public MyNode getNext() {
+    @Override
+    public k getkey() {
+        return key;
+    }
+
+    @Override
+    public void setkey(k key) {
+        this.key = key;
+    }
+
+    public INode getNext() {
         return next;
     }
 
-    public void setNext(MyNode next) {
+    public void setNext(INode next) {
         this.next = next;
     }
 }

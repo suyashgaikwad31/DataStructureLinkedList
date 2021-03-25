@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.mynodetest.MyNodeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-25T14:48:08" hostname="DESKTOP-GFV8CMG" time="0.027">
-  <properties/>
-  <testcase name="given3NumberWhenLinkedShouldPassedLinkedListTest()" classname="com.mynodetest.MyNodeTest" time="0.027"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
