@@ -1,0 +1,2 @@
+com/mynodetest/MyNodeTest.java
+ com.mynodetest.MyNodeTest
