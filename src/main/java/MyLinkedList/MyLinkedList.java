@@ -58,4 +58,13 @@ public class MyLinkedList {
     }
 
 
+    public INode popLast() {
+        INode temoNode = head;
+        while (!temoNode.getNext().equals(tail)) {
+            temoNode = temoNode.getNext();
+        }
+        this.tail = temoNode;
+        temoNode = temoNode.getNext();
+        return temoNode;
+    }
 }
